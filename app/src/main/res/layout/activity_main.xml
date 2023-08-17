@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#57015677"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/AsboluteBarometricPressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absolute Barometric Pressure"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/absoluteBarometricPressureValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampAbsoluteBarometricPressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/RPMTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RPM"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/RPMValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampRPMTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/BoostPressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boost Pressure"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/BoostPressureValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampBoostPressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/CoolantTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coolant Temperature"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/CoolantTempValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampCoolantTemperatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/EngineLoadTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engine load"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/EngineLoadValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampEngineLoadTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/FuelLevelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuel level"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/FuelLevelValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampFuelLevelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/IntakeTempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intake temperature"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/IntakeTempValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampIntakeTempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/O2SensorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O2 Sensor"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/O2SensorValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampO2SensorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/OdometerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odometer"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/OdometerValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampOdometerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/OilTempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oil temperature"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/OilTempValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampOilTempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/SpeedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/SpeedValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampSpeedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/ThrottleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Throttle position"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/ThrottleValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampThrottleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/TimingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timing advance"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/TimingValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/timestampTimingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onBackPressed"
+            android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>
